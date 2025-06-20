@@ -1,10 +1,10 @@
-# 📊 Dimensionality Reduction for Data Visualization Using Nature-Inspired Algorithms
+# Dimensionality Reduction for Data Visualization Using Nature-Inspired Algorithms
 
 This project explores traditional and nature-inspired dimensionality reduction techniques to visualize high-dimensional data. It features a GUI for interactive algorithm selection, visualization, and reproducibility testing.
 
 ---
 
-**📁 Dataset**
+**Dataset**
 
 * **Source**: Digits dataset from Scikit-learn
 * **Features**: 64 numerical features (8x8 pixel images)
@@ -13,7 +13,7 @@ This project explores traditional and nature-inspired dimensionality reduction t
 
 ---
 
-**🧠 Algorithms Implemented**
+**Algorithms Implemented**
 
 | Algorithm           | Description                                      |
 | ------------------- | ------------------------------------------------ |
@@ -27,7 +27,7 @@ This project explores traditional and nature-inspired dimensionality reduction t
 
 ---
 
-**🔍 Highlights of Algorithms**
+**Highlights of Algorithms**
 
 * **PCA**: Fast, preserves global structure; limited on non-linear data
 * **t-SNE**: Reveals clusters well but lacks reproducibility and global context
@@ -39,7 +39,7 @@ This project explores traditional and nature-inspired dimensionality reduction t
 
 ---
 
-**🖥️ GUI Functionality**
+**GUI Functionality**
 
 * Dropdown for algorithm selection
 * Dynamic parameter inputs per method
@@ -48,7 +48,7 @@ This project explores traditional and nature-inspired dimensionality reduction t
 
 ---
 
-**⚙️ Parameter Customization**
+**Parameter Customization**
 
 | Method      | Key Parameters                            |
 | ----------- | ----------------------------------------- |
@@ -62,7 +62,7 @@ This project explores traditional and nature-inspired dimensionality reduction t
 
 ---
 
-**🧩 SOM Configuration**
+**SOM Configuration**
 
 * **Library**: MiniSom
 * **Grid**: `grid_size × grid_size`
@@ -72,14 +72,14 @@ This project explores traditional and nature-inspired dimensionality reduction t
 
 ---
 
-**🔁 Reproducibility**
+**Reproducibility**
 
 * The "Run 30 Repetitions" feature executes the selected algorithm 30 times using different seeds.
 * Seeds are saved in `seeds_used.txt` for traceability.
 
 ---
 
-**📌 Goal**
+**Goal**
 To compare dimensionality reduction methods—especially biologically inspired ones—for their effectiveness, efficiency, and consistency in visualizing high-dimensional data.
 
 ---
